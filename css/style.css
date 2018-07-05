@@ -1,0 +1,95 @@
+
+
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
+    background: linear-gradient(45deg, #ff512f 0,#dd2476 100%) no-repeat;
+}
+
+.form {
+    margin: 100px auto;
+    width: 460px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__title {
+    padding-left: 30px;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    background: url('../images/signup.png') no-repeat;
+    cursor: pointer;
+}
+
+.form__title:hover {
+    color: #dd2476;
+    transition: all .2s ease-in-out;
+}
+
+.form__description {
+    font-size: 13px;
+    color: #7a7b7f;
+}
+
+a {
+    color: #ea355a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bd1962;
+    transition: all .2s ease-in-out;
+}
+
+[class^="form-field"] {
+    font-size: 14px;
+    width: 460px;
+    height: 40px;
+    margin: 10px auto;
+    background: #f0f0f0;
+    color: #7a7b7f;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.form-field--half {
+    width: 220px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.form-btn__button {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 3px solid #bd1962;
+    width: 100%;
+    color: #fff;
+    background: #ea355a;
+}
+
+.form-btn__button:hover {
+    transition: all .2s ease-in-out;
+    color: #ffa676;
+}
+
+.form__agreement {
+    color: #7a7b7f;
+    font-size: 12px;
+}
